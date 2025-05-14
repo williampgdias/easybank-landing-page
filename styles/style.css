@@ -68,12 +68,48 @@ header ul li a:hover:before {
     font-size: 4rem;
     color: var(--primary-dark-blue);
     width: 50%;
-    font-weight: 200;
+    font-weight: 400;
 }
 
-.subtitle {
+/* Reason section */
+.reason {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: var(--neutral-light-grayish-blue);
+}
+
+.reason .subtitle {
+    width: 50%;
+}
+
+.reason .card-container {
+    display: flex;
+    gap: 30px;
+}
+
+.reason .card {
+    background-color: transparent;
+    border: none;
+    margin-top: 40px;
+}
+
+.reason .card-img-top {
     width: 35%;
+}
+
+.reason .card-body {
+    padding: 0;
+}
+
+.reason .card-title {
+    font-size: 1.9rem;
+    font-weight: 300;
+    color: var(--primary-dark-blue);
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.reason .card-text {
     color: var(--neutral-grayish-blue);
-    margin-top: 20px;
-    margin-bottom: 40px;
+    font-size: 1.2rem;
 }
