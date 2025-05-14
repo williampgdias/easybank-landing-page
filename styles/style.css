@@ -54,10 +54,26 @@ header ul li a:hover:before {
     background-position: 850px;
     height: 64vh;
     position: relative;
+    display: flex;
+    align-items: center;
 }
 
 .absolut-image {
     position: absolute;
     top: -130px;
     right: -130px;
+}
+
+.title {
+    font-size: 4rem;
+    color: var(--primary-dark-blue);
+    width: 50%;
+    font-weight: 200;
+}
+
+.subtitle {
+    width: 35%;
+    color: var(--neutral-grayish-blue);
+    margin-top: 20px;
+    margin-bottom: 40px;
 }

@@ -29,7 +29,7 @@ body {
 }
 
 .cta-button {
-    padding: 12px 24px;
+    padding: 10px 32px;
     outline: none;
     border: none;
     border-radius: 50px;
@@ -42,7 +42,7 @@ body {
     );
     cursor: pointer;
     transition: all 0.1s ease;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
 
 .cta-button:hover {
