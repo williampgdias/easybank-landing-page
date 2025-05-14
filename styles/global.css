@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Public Sans', sans-serif;
+}
+
+body {
+    font-size: 1.125rem;
+    overflow-x: hidden;
+}
+
+:root {
+    --neutral-grayish-blue: #9698a6;
+    --neutral-light-grayish-blue: #f3f4f6;
+    --neutral-very-light-gray: #fafafa;
+    --neutral-white: #ffffff;
+
+    --primary-dark-blue: #2d314d;
+    --primary-lime-green: #31d35c;
+    --primary-bright-cyan: #2bb7da;
+}
+
+.container {
+    width: 1400px;
+    margin: 0 auto;
+}
+
+.cta-button {
+    padding: 12px 24px;
+    outline: none;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    background: #31d35c;
+    background: linear-gradient(
+        90deg,
+        rgba(49, 211, 92, 1) 8%,
+        rgba(43, 183, 218, 1) 100%
+    );
+    cursor: pointer;
+    transition: all 0.1s ease;
+    font-size: 1.2rem;
+}
+
+.cta-button:hover {
+    opacity: 0.7;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
